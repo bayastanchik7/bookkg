@@ -1,0 +1,39 @@
+.jurok {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.input {
+  position: relative;
+}
+.input input {
+  width: 220px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.icons {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+.icon {
+  display: flex;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.jurok h1 {
+  color: #010049;
+}
+.basket {
+  position: relative;
+  color: black;
+  left: 107px;
+  top: 10px;
+}

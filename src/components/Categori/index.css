@@ -1,0 +1,42 @@
+.categori {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.categori img {
+  width: 290px;
+  border-radius: 10px;
+}
+#categori h1 {
+  margin: 40px 0;
+  color: #010049;
+  font-size: 40px;
+  font-weight: 900;
+}
+#categoriP {
+  position: relative;
+}
+.leader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  color: aqua;
+  right: -10px;
+  top: 155px;
+}
+.leader h3 {
+  position: relative;       
+  right: 50px;
+  font-size: 20px;
+}
+.leader h4 {
+  position: relative;
+  right: 180px;
+  font-size: 25px;
+}
+.leader h5 {
+  position: relative;
+  right: 110px;
+  font-size: 20px;
+}
