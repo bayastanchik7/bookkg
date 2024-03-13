@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#header {
+  background: #010049;
+}
+
+.headert h1 {
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-input input {
+  width: 220px;
+  height: 19px;
+  padding: 8px;
+  border-radius: 3px;
+  position: absolute;
+  left: 60pc;
+  bottom: -5px;
+}
+.sss {
+  position: absolute;
+  right: 72px;
+  bottom: 3px;
+  color: white;
+  font-size: 20px;
+}
+.admin {
+  position: absolute;
+  right: 30px;
+  bottom: 3px;
+  color: white;
+  font-size: 20px;
+}
+.search {
+  position: absolute;
+  left: 73.2pc;
+  bottom: 6px;
+}
