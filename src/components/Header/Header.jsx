@@ -3,6 +3,7 @@ import "./header.css";
 import { CiSearch } from "react-icons/ci";
 import { SlBasket } from "react-icons/sl";
 import { RiAdminLine } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,7 +11,9 @@ const Header = () => {
       <div className="container">
         <div className="header">
           <div className="headert">
-            <h1>BOOKShop</h1>
+          <NavLink to={"/"} >
+          <h1>BOOKShop</h1>  
+         </NavLink>
           </div>
           <div className="header-input">
             <input type="text" placeholder="Search here" />
@@ -18,7 +21,7 @@ const Header = () => {
           </div>
           <div className="basket">
             <SlBasket className="sss" />
-            <RiAdminLine className="admin" />
+            <NavLink to={"/admin"}> <RiAdminLine className="admins"/> </NavLink>
           </div>
         </div>
       </div>
