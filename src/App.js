@@ -15,9 +15,10 @@ function App() {
       <Route path='/admin' element={<Admin/>}/>
      </Routes>
       <Hero />
-      <Categori />
+      <Categori/>
       <Jurok />
-      <MainRoutes/>
+      <MainRoutes />
+      
     </div>
   );
 }
