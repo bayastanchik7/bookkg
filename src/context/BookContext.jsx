@@ -20,17 +20,11 @@ const BookContext = ({children}) => {
         const {data} =  response
         setProduct(data)
     }
-console.log(product);
     
     const getOneProduct = async (id) => {
         const {data} = await axios(`${API}/${id}`)
         setOneproduct(data)
     }
-
-
-
-
-
     const values = {
         addProduct,
         getProduct,
