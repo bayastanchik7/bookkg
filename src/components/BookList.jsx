@@ -10,9 +10,16 @@ const BookList = () => {
     },[])
     
     return <Box>
-        {
+        <div className="container">
+            <div className={"bookcard"}>
+              {
             product.length > 0 ? (product.map((el,idx) => <BookCard el={el} key={idx}/>)) : (<h1></h1>)
         }
+        </div>
+        </div>
+        
+          
+        
                
     </Box>
 }

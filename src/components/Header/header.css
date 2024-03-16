@@ -50,9 +50,54 @@ a {
   bottom: -3px;
   color: white;
   font-size: 20px;
+ 
 }
 .search {
   position: absolute;
   left: 73.2pc;
   bottom: 6px;
+}
+.moon{
+  position: absolute;
+  color: white;
+  width: 25px;
+  height: 25px;
+  bottom: -5px;
+  right: 50px;
+}
+
+
+
+.hero-modal {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background: cadetblue;
+  margin: 0 auto;
+  border-radius: 15px;
+  display: none;
+  top:200px;
+  right: 490px;
+  z-index: 1;
+}
+.hero-modal input{
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.btn{
+width: 100px;
+height: 40px;
+border-radius: 10px;
+margin-left: 190px;
+margin-top: 40px;
+background: aqua;
+}
+.hero-modal div {
+  display: flex;
+  justify-content: end;
+  background: transparent;
 }

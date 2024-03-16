@@ -21,6 +21,12 @@ const BookContext = ({children}) => {
         setProduct(data)
     }
 console.log(product);
+
+
+const removeProduct = async (id) => {
+    await axios.delete(`${API}/${id}`)
+    getProduct()
+}
     
     const getOneProduct = async (id) => {
         const {data} = await axios(`${API}/${id}`)
@@ -34,6 +40,7 @@ console.log(product);
     const values = {
         addProduct,
         getProduct,
+        removeProduct,
         product,
         getOneProduct,
         oneProduct,
