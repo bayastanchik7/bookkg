@@ -48,18 +48,6 @@ const Header = ({ handleSearch }) => {
           </div>
         </div>
       </div>
-      {searching.length > 0 && (
-        <div className="search-results">
-          <ul>
-            {searching.map((book) => (
-              <li key={book.id}>
-                <img src={book.image} alt={book.name} />
-                <span>{book.name}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 };
