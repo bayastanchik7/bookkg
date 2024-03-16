@@ -34,8 +34,12 @@ a {
   padding: 8px;
   border-radius: 3px;
   position: absolute;
-  left:59pc;
+  left: 59pc;
   bottom: -5px;
+}
+.ser {
+  position: relative;
+  font-size: 18px;
 }
 .sss {
   position: absolute;
@@ -50,14 +54,15 @@ a {
   bottom: -3px;
   color: white;
   font-size: 20px;
- 
 }
 .search {
   position: absolute;
-  left: 73.2pc;
-  bottom: 6px;
+  left: 72.2pc;
+  bottom: 1px;
+  background: white;
+  border: none;
 }
-.moon{
+.moon {
   position: absolute;
   color: white;
   width: 25px;
@@ -65,8 +70,6 @@ a {
   bottom: -5px;
   right: 50px;
 }
-
-
 
 .hero-modal {
   position: absolute;
@@ -76,11 +79,11 @@ a {
   margin: 0 auto;
   border-radius: 15px;
   display: none;
-  top:200px;
+  top: 200px;
   right: 490px;
   z-index: 1;
 }
-.hero-modal input{
+.hero-modal input {
   padding: 10px 30px;
   display: flex;
   flex-direction: column;
@@ -88,13 +91,13 @@ a {
   margin-top: 30px;
   border-radius: 10px;
 }
-.btn{
-width: 100px;
-height: 40px;
-border-radius: 10px;
-margin-left: 190px;
-margin-top: 40px;
-background: aqua;
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 190px;
+  margin-top: 40px;
+  background: aqua;
 }
 .hero-modal div {
   display: flex;
