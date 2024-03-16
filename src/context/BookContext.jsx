@@ -32,11 +32,6 @@ const removeProduct = async (id) => {
         const {data} = await axios(`${API}/${id}`)
         setOneproduct(data)
     }
-
-
-
-
-
     const values = {
         addProduct,
         getProduct,
