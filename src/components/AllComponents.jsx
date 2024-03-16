@@ -5,6 +5,7 @@ import Categori from "./Categori";
 import Jurok from "./Jurok";
 import MainRoutes from "../route/MainRoutes";
 import { useState } from "react";
+import Footer from "./footer";
 
 
 
@@ -17,7 +18,8 @@ function AllComponents() {
         <Hero />            
         <Categori />
         <Jurok />
-        <MainRoutes/>
+        <MainRoutes />
+        <Footer/>
       </div>
     );
   }
