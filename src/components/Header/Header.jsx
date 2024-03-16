@@ -4,6 +4,12 @@ import { CiSearch } from "react-icons/ci";
 import { SlBasket } from "react-icons/sl";
 import { RiAdminLine } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
+import { IoMoon } from "react-icons/io5";
+
+
+
+const Header = ({setValue,count,setCount}) => {
+  const [open, setOpen] = useState(false)
 import { useBookContext } from "../../context/BookContext";
 
 const Header = ({ handleSearch }) => {
@@ -42,6 +48,19 @@ const Header = ({ handleSearch }) => {
           </div>
           <div className="basket">
             <SlBasket className="sss" />
+            <NavLink to={"/admin"}> <RiAdminLine  className="admins"/> </NavLink>
+            {/* <div className="hero-modal"
+                 style={{
+                 display: open ? "none" : "block"
+                 }}>
+                   <div>
+                   <button className="btn1" onClick={() => setOpen(!open)}>X</button>
+                  </div>
+                     
+
+                       </div>  */}
+
+            {/* < IoMoon className='moon' onClick={() => setCount(!count)}/> */}
             <NavLink to={"/admin"}>
               <RiAdminLine className="admins" />
             </NavLink>
