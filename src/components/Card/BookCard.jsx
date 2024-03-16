@@ -4,9 +4,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import "./BookCard.css"
+import { Button, CardActions } from '@mui/material';
+import { useBookContext } from '../../context/BookContext';
 
 
 const BookCard = ({el}) => {
+  const {removeProduct} = useBookContext()
     return (
       <div id='card'>
            <div className="container">
@@ -20,15 +23,18 @@ const BookCard = ({el}) => {
     
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
-        {el.name}
+        
       </Typography>
-      <Typography variant="body2" color="text.secondary">
-        {el.price}$
+      <Typography  sx={{color:"black"}} variant="h5" color="text.secondary">
+        {el.price} сом       
         
       </Typography>
       <Typography>
         {el.description}
       </Typography>
+      <CardActions>
+      <Button onClick={()=> removeProduct(el.id)}  size="small">Delete</Button>
+      </CardActions>
     </CardContent>
   </Card>      
             </div>

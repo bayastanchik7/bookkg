@@ -6,12 +6,13 @@ import Categori from "./components/Categori";
 import Jurok from "./components/Jurok";
 import Admin from './components/pages/Admin';
 import MainRoutes from './route/MainRoutes';
+import AllComponents from './components/AllComponents';
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-      <Route path='/' element={<Header/>}/>
+      <Routes>  
+      <Route path='/' element={<AllComponents/>}/>
       <Route path='/admin' element={<Admin/>}/>
      </Routes>
       <Hero />

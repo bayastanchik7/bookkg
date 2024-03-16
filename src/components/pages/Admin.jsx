@@ -35,15 +35,13 @@ const Admin = () => {
                         gap:"20px",
                     }}
                     >
-                        <div class="input__wrapper">
-                      <input type="file" name="file" id="input__file" class="input input__file"/>
-                    </div>
+                      
             
             <TextField  sx={{
                 maxWidth:"370px",
                 width:'100%'
             }} id="outlined-basic"
-             label="Product name" 
+             label="Product URL" 
              variant="outlined"
              name='image' 
              value={values.image}
